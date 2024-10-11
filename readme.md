@@ -6,7 +6,9 @@ Responsiv design är en viktig aspekt av webbdesign som gör att webbplatser kan
 
 ## Flexbox
 
-Flexbox (Flexible Box Layout) är en CSS-layoutmetod som gör det enklare att skapa flexibla och responsiva layouter. Med flexbox kan du enkelt justera och fördela utrymmet mellan element i en behållare, oavsett deras storlek.
+Flexbox
+
+Flexbox (Flexible Box Layout) är en CSS-layoutmetod som gör det enklare att skapa flexibla och responsiva layouter. Med flexbox kan du enkelt justera och fördela utrymmet mellan element i en behållare, oavsett deras storlek. Som beskrivet av [MDN - Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox#why_flexbox)kan Flexbox användas för att skapa responsiva layouter genom att justera elementens storlek och position i en flexcontainer (Mozilla Developer Network, n.d.).
 
 ### Hur Flexbox fungerar:
 
@@ -30,7 +32,7 @@ Flexbox (Flexible Box Layout) är en CSS-layoutmetod som gör det enklare att sk
 
 ## CSS Grid
 
-CSS Grid är en annan layoutmetod som gör det möjligt att skapa komplexa layouter med hjälp av rader och kolumner. Grid är idealiskt för att skapa strukturerade layouter och gör det lätt att kontrollera både vertikal och horisontell placering av element.
+CSS Grid är en annan layoutmetod som gör det möjligt att skapa komplexa layouter med hjälp av rader och kolumner. Grid är idealiskt för att skapa strukturerade layouter och gör det lätt att kontrollera både vertikal och horisontell placering av element. CSS Grid gör det möjligt att skapa mer komplicerade layouter än vad Flexbox kan erbjuda [MDN - Grid](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Grids)
 
 ### Hur Grid fungerar:
 

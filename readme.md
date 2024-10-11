@@ -25,7 +25,7 @@ Flexbox (Flexible Box Layout) är en CSS-layoutmetod som gör det enklare att sk
 .item {
     flex: 1; /* Jämnt fördela utrymmet */
     margin: 10px;
-}
+} ```
 
 ## CSS Grid
 

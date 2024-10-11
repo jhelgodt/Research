@@ -2,13 +2,13 @@
 
 Responsiv design är en viktig aspekt av webbdesign som gör att webbplatser kan anpassa sig till olika skärmstorlekar och enheter. I denna uppgift kommer vi att utforska hur flexbox, grids och media queries fungerar och hur de kan användas för att skapa en responsiv webbdesign.
 
-![Illustration av responsiv webbdesign med olika skärmstorlekar](path/to/image) <!-- Lägg till en bildväg -->
+![Illustration av responsiv webbdesign med olika skärmstorlekar](<[path/to/image](https://images.squarespace-cdn.com/content/v1/54ea37dfe4b09706d4a8f4f8/1541139479672-USSCYST2YYUOOJ5XJ74L/responsive-web-design-griffin-co-marketing.png)>) <!-- Lägg till en bildväg -->
 
 ## Flexbox
 
 Flexbox
 
-Flexbox (Flexible Box Layout) är en CSS-layoutmetod som gör det enklare att skapa flexibla och responsiva layouter. Med flexbox kan du enkelt justera och fördela utrymmet mellan element i en behållare, oavsett deras storlek. Som beskrivet av [MDN - Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox#why_flexbox)kan Flexbox användas för att skapa responsiva layouter genom att justera elementens storlek och position i en flexcontainer (Mozilla Developer Network, n.d.).
+Flexbox (Flexible Box Layout) är en CSS-layoutmetod som gör det enklare att skapa flexibla och responsiva layouter. Med flexbox kan du enkelt justera och fördela utrymmet mellan element i en behållare, oavsett deras storlek. Som beskrivet av [MDN - Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox#why_flexbox) kan Flexbox användas för att skapa responsiva layouter genom att justera elementens storlek och position i en flexcontainer.
 
 ### Hur Flexbox fungerar:
 

@@ -15,17 +15,18 @@ Flexbox (Flexible Box Layout) är en CSS-layoutmetod som gör det enklare att sk
 
 ### Exempel på Flexbox
 
-````css
+```css
 .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .item {
-    flex: 1; /* Jämnt fördela utrymmet */
-    margin: 10px;
-} ```
+  flex: 1; /* Jämnt fördela utrymmet */
+  margin: 10px;
+}
+```
 
 ## CSS Grid
 
@@ -40,15 +41,16 @@ CSS Grid är en annan layoutmetod som gör det möjligt att skapa komplexa layou
 
 ```css
 .grid-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Tre kolumner */
-    gap: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Tre kolumner */
+  gap: 10px;
 }
 
 .grid-item {
-    background-color: lightblue;
-    padding: 20px;
+  background-color: lightblue;
+  padding: 20px;
 }
+```
 
 ### Media Queries
 
@@ -58,13 +60,14 @@ Media queries används för att tillämpa olika stilar beroende på enhetens sk�
 
 ```css
 @media (max-width: 900px) {
-    .container {
-        flex-direction: column; /* Ändrar flexriktningen till kolumn */
-    }
-    .grid-container {
-        grid-template-columns: 1fr; /* En kolumn för mobil */
-    }
+  .container {
+    flex-direction: column; /* Ändrar flexriktningen till kolumn */
+  }
+  .grid-container {
+    grid-template-columns: 1fr; /* En kolumn för mobil */
+  }
 }
+```
 
 ### Implementering av Responsiv Design
 
@@ -72,34 +75,36 @@ För att skapa en responsiv design som visar en mobil vy vid en bredd på mindre
 
 ```html
 <div class="container">
-    <div class="item">Item 1</div>
-    <div class="item">Item 2</div>
-    <div class="item">Item 3</div>
+  <div class="item">Item 1</div>
+  <div class="item">Item 2</div>
+  <div class="item">Item 3</div>
 </div>
 
 <div class="grid-container">
-    <div class="grid-item">Grid Item 1</div>
-    <div class="grid-item">Grid Item 2</div>
-    <div class="grid-item">Grid Item 3</div>
+  <div class="grid-item">Grid Item 1</div>
+  <div class="grid-item">Grid Item 2</div>
+  <div class="grid-item">Grid Item 3</div>
 </div>
+```
 
 ```css
 .container {
-    display: flex;
+  display: flex;
 }
 
 .grid-container {
-    display: grid;
+  display: grid;
 }
 
 @media (max-width: 900px) {
-    .container {
-        flex-direction: column;
-    }
-    .grid-container {
-        grid-template-columns: 1fr;
-    }
+  .container {
+    flex-direction: column;
+  }
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
 }
+```
 
 # Lärdomar från Responsiv Design
 
@@ -109,9 +114,8 @@ När jag arbetade med mitt senaste projekt, insåg jag vikten av att tänka på 
 
 Jag lärde mig också att ändra flex-riktningen till `column` när jag anpassade designen för mindre skärmar. Det gjorde att layouten blev mer användarvänlig och lättare att navigera på mobila enheter. Att använda flexbox i kombination med media queries gjorde det möjligt för mig att skapa en mer dynamisk och responsiv webbplats.
 
-*En skärmdump av en responsiv design som anpassar sig till olika skärmstorlekar.*
+_En skärmdump av en responsiv design som anpassar sig till olika skärmstorlekar._
 
 ## Slutsats
 
 Flexbox, grids och media queries är kraftfulla verktyg för att skapa responsiva webbplatser. Genom att förstå hur dessa verktyg fungerar kan utvecklare bygga användarvänliga gränssnitt som fungerar på alla enheter.
-````

@@ -2,7 +2,7 @@
 
 Responsiv design är en viktig aspekt av webbdesign som gör att webbplatser kan anpassa sig till olika skärmstorlekar och enheter. I denna uppgift kommer vi att utforska hur flexbox, grids och media queries fungerar och hur de kan användas för att skapa en responsiv webbdesign.
 
-![Illustration av responsiv webbdesign med olika skärmstorlekar](<(https://images.squarespace-cdn.com/content/v1/54ea37dfe4b09706d4a8f4f8/1541139479672-USSCYST2YYUOOJ5XJ74L/responsive-web-design-griffin-co-marketing.png)>)
+![Illustration av responsiv webbdesign med olika skärmstorlekar](https://images.squarespace-cdn.com/content/v1/54ea37dfe4b09706d4a8f4f8/1541139479672-USSCYST2YYUOOJ5XJ74L/responsive-web-design-griffin-co-marketing.png)
 
 ## Flexbox
 

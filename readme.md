@@ -116,7 +116,7 @@ När jag arbetade med mitt senaste projekt, insåg jag vikten av att tänka på 
 
 Jag lärde mig också att ändra flex-riktningen till `column` när jag anpassade designen för mindre skärmar. Det gjorde att layouten blev mer användarvänlig och lättare att navigera på mobila enheter. Att använda flexbox i kombination med media queries gjorde det möjligt för mig att skapa en mer dynamisk och responsiv webbplats.
 
-_En skärmdump av en responsiv design som anpassar sig till olika skärmstorlekar._
+![Screenshot](Screenshot%202024-10-11%20at%2017.03.16.png)
 
 ## Slutsats
 
